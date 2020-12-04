@@ -11,3 +11,8 @@ The motivation for this was to provide  example of a simple expandable hardware 
 cd build && cd build
 cmake .. && make
 ```
+
+## Run
+```
+./example.a
+```
