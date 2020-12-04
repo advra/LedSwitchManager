@@ -18,7 +18,7 @@
 */
 
 namespace LedSwitch{
-    enum STATE {WAITGPSFIX, GPSFIX, RECORDING, SHUTDOWN};
+    enum STATE {OFF, WAITGPSFIX, GPSFIX, RECORDING, SHUTDOWN};
     constexpr short GPIO_POWER_BUTTON = 5; 
     constexpr short GPIO_LED_PIN = 1; 
     constexpr short POWER_OFF_SECONDS = 3;
