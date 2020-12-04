@@ -104,8 +104,8 @@ namespace LedSwitch{
                 digitalWrite (GPIO_LED_PIN,  HIGH);
                 delay(50);
                 digitalWrite (GPIO_LED_PIN,  LOW);
-            }else{
-
+            }else if(state_ == LedSwitch::STATE::OFF){
+                digitalWrite (GPIO_LED_PIN,  LOW);
             }
         }
     }
